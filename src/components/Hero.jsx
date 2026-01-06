@@ -38,7 +38,7 @@ export default function Hero() {
                 href="https://wa.me/56952375961?text=Hola%2C%20vi%20tu%20portafolio%20y%20quiero%20cotizar%20un%20proyecto"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-neonOrange transition"
+                className="text-gray-300 hover:text-neonOrange transition w-fit"
                 >
                 Contacto
             </a>
