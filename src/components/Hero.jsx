@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber"
 import { motion } from "framer-motion"
-import NeonSphere from "./NeonSphere"
+import NeonStar from "./NeonStar"
 
 export default function Hero() {
   return (
@@ -51,7 +51,7 @@ export default function Hero() {
         <Canvas camera={{ position: [0, 0, 4] }}>
           <ambientLight intensity={0.2} />
           <pointLight position={[2, 2, 2]} intensity={2} color="#FF6A00" />
-          <NeonSphere />
+          <NeonStar />
         </Canvas>
       </div>
     </section>
