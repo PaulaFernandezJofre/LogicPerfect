@@ -17,13 +17,13 @@ const projects = [
     title: "Calculadora de Calorías de un plato de comida",
     desc: "Extracción de calorías a partir de una fotografía de un plato de comida.",
     stack: ["Flask", "PostgreSQL", "Python", "IA"],
-    url: "https://tu-calculadora-calorias.vercel.app",
+    url: "",
   },
   {
     title: "Interacción de personas sordas hacia personas oyentes",
     desc: "Plataforma para facilitar la comunicación entre personas sordas y personas oyentes.",
     stack: ["SQLite", "Python"],
-    url: "https://tu-sistema-certificados.vercel.app",
+    url: "https://imagenatext.streamlit.app/",
   },
 ]
 
