@@ -4,14 +4,14 @@ import NeonSphere from "./NeonSphere"
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16">
+    <section className="min-h-screen flex flex-col items-center justify-center px-6 md:px-16 text-center">
       
       {/* TEXTO */}
       <motion.div
-        initial={{ opacity: 0, x: -40 }}
-        animate={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="max-w-xl text-center md:text-left"
+        className="max-w-xl"
       >
         <h1 className="text-4xl md:text-5xl font-semibold mb-4">
           Paula Fernández Jofré
@@ -26,7 +26,7 @@ export default function Hero() {
         </p>
 
         {/* BOTÓN CONTACTO */}
-        <div className="flex justify-center md:justify-start">
+        <div className="flex justify-center mb-10">
           <a
             href="https://wa.me/56952375961?text=Hola%2C%20vi%20tu%20portafolio%20y%20quiero%20cotizar%20un%20proyecto"
             target="_blank"
@@ -38,8 +38,8 @@ export default function Hero() {
         </div>
       </motion.div>
 
-      {/* 3D */}
-      <div className="w-full md:w-1/2 h-[400px] md:h-screen mt-12 md:mt-0">
+      {/* ESFERA 3D */}
+      <div className="w-full max-w-md h-[300px] md:h-[400px] flex justify-center">
         <Canvas camera={{ position: [0, 0, 4] }}>
           <ambientLight intensity={0.2} />
           <pointLight position={[2, 2, 2]} intensity={2} color="#FF6A00" />
